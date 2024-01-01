@@ -2,7 +2,8 @@ name: checking the aws  app is good or not
 run-name: building and testting that this repo is perfect for deplyoment or not
 on: [push]
 jobs:
-  runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
   steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v3
