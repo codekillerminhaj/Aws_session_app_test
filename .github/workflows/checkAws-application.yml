@@ -1,4 +1,4 @@
-name: checking the AWS app
+name: checking the AWS app second
 
 on: [push]
 
