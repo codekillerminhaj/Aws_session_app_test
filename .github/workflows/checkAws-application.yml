@@ -4,11 +4,11 @@ on: [push]
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node: [ 14, 16, 18 ]
+        node: [ 14, 16, 18, 20 ]
 
     steps:
       - name: Checkout code
